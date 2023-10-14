@@ -1,1 +1,15 @@
-# Analisis-de-Tarifas-de-Prepago-en-Megaline-Surf-vs.-Ultimate
+# Análisis-de-Tarifas-de-Prepago-en-Megaline-Surf-vs.-Ultimate
+¿Cuál es la mejor tarifa?
+Trabajas como analista para el operador de telecomunicaciones Megaline. La empresa ofrece a sus clientes dos tarifas de prepago, Surf y Ultimate. El departamento comercial quiere saber cuál de las tarifas genera más ingresos para poder ajustar el presupuesto de publicidad.
+
+Vas a realizar un análisis preliminar de las tarifas basado en una selección de clientes relativamente pequeña. Tendrás los datos de 500 clientes de Megaline: quiénes son los clientes, de dónde son, qué tarifa usan, así como la cantidad de llamadas que hicieron y los mensajes de texto que enviaron en 2018. Tu trabajo es analizar el comportamiento de los clientes y determinar qué tarifa de prepago genera más ingresos.
+
+Este proyecto se enfoca en analizar y comparar las tarifas de prepago, Surf y Ultimate, ofrecidas por Megaline, un operador de telecomunicaciones. El objetivo principal es determinar cuál de estas tarifas genera más ingresos. Se dispone de datos de 500 clientes de Megaline, que incluyen información sobre llamadas, mensajes de texto y uso de datos en 2018. A través de un análisis exhaustivo, se busca identificar el comportamiento de los clientes y proporcionar información clave para tomar decisiones estratégicas, como ajustar el presupuesto de publicidad. El análisis incluirá la preparación de datos, exploración de patrones de uso, pruebas de hipótesis estadísticas y una conclusión que informará sobre la mejor tarifa para Megaline.
+
+# Preparar los datos
+Con la inicialización de las librerías y la carga de los diversos DataFrames, hemos dado inicio al proceso de preparación de los datos. Este paso es esencial para asegurar la calidad de los datos y permitir un análisis preciso. Durante esta fase, se llevarán a cabo tareas cruciales, como la conversión de tipos de datos para garantizar la coherencia en el análisis, la detección y corrección de posibles errores que puedan afectar la integridad de los resultados, y la creación de nuevas variables que serán fundamentales para el cálculo de ingresos mensuales de los usuarios. Estos preparativos sientan las bases para un análisis completo y significativo de las tarifas Surf y Ultimate de Megaline.
+
+# Conclusión general
+Aunque se observaron similitudes en la duración de llamadas y el consumo de Internet entre ambos grupos de usuarios de los planes "Surf" y "Ultimate", se destacan diferencias notables en el número de mensajes enviados y los ingresos generados. Específicamente, los usuarios del plan "Ultimate" tienden a enviar más mensajes y generan, en promedio, un ligero aumento en los ingresos en comparación con los usuarios del plan "Surf". Además, los análisis estadísticos revelaron diferencias significativas en los ingresos promedio tanto entre los dos grupos como entre los usuarios de la región "NY-NJ" y otras regiones.
+
+Es importante señalar que la presencia de un mayor número de usuarios que utilizan el plan "Surf" puede haber influido en la visualización de datos, particularmente en los histogramas, lo que puede explicar ciertas alteraciones en las representaciones gráficas.
